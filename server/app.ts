@@ -30,7 +30,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(xssClean());
 
-// Swagger option
 swaggerDoc(app);
 app.use("/api/v1", router);
 const startApolloServer = async () => {

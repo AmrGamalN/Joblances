@@ -13,7 +13,7 @@ export const swaggerOptions = (route: string): object => {
       },
       servers: [
         {
-          url: "http://localhost:8080/api/v1",
+          url: "https://joblaneces-platform.onrender.com/api/v1",
           description: "Local server for development",
         },
       ],
